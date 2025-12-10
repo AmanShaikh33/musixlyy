@@ -40,7 +40,7 @@ export default function Signup() {
 
         <form onSubmit={handleSubmit} className="space-y-5">
 
-          {/* Full Name */}
+
           <div className="relative">
             <FiUser className="absolute left-4 top-1/2 -translate-y-1/2 text-emerald-400" />
             <input
@@ -51,7 +51,7 @@ export default function Signup() {
             />
           </div>
 
-          {/* Email */}
+
           <div className="relative">
             <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-emerald-400" />
             <input
